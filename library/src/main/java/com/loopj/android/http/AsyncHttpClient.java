@@ -138,7 +138,7 @@ public class AsyncHttpClient {
     private int connectTimeout = DEFAULT_SOCKET_TIMEOUT;
     private int responseTimeout = DEFAULT_SOCKET_TIMEOUT;
     private ExecutorService threadPool;
-    private boolean isUrlEncodingEnabled = true;
+    private boolean isUrlEncodingEnabled = false;
 
     /**
      * Creates a new AsyncHttpClient with default constructor arguments values
